@@ -9,7 +9,7 @@ CREATE TABLE "Customers" (
   "Phone" character(15) NOT NULL,
   "Email" character varying(100) NOT NULL,
   "City" character varying(20) NOT NULL,
-  "Country" character varying(50) NOT NULL;
+  "Country" character varying(50) NOT NULL
 )
 
 INSERT INTO "Customers" ("FirstName", "LastName", "Gender", "Address", "Phone", "Email", "City", "Country")
