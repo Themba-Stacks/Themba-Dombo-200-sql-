@@ -46,7 +46,7 @@ FORMAT('$%s, R%s', ROUND(AVG("BuyPrice"), 2)*12, ROUND(AVG("BuyPrice"), 2) )aver
 FROM "Products";
 
 --16.Using INNER JOIN create a query that selects all Payments with Customer information.
-SELECT * FROM "Customers" INNER JOIN "Payments" ON "CustomerId" = "CustomerID"
+SELECT * FROM "Customers" INNER JOIN "Payments" ON "CustomerId" = "CustomerID";
 
 --17.Select all products that have turnable front wheels.
 SELECT  "ProductID","ProductName","Description","BuyPrice",REGEXP_MATCHES("Description", 'Turnable front wheels') FROM "Products";
