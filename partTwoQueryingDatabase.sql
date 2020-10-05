@@ -1,5 +1,5 @@
 --1.SELECT ALL records from table Customers.
-SELECT ALL * FROM "Customers";
+SELECT * FROM "Customers";
 
 --2.SELECT records only from the name column in the Customers table
 SELECT "FirstName","LastName" FROM "Customers";
