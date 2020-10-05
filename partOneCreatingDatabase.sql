@@ -10,7 +10,7 @@ CREATE TABLE "Customers" (
   "Email" character varying(100) NOT NULL,
   "City" character varying(20) NOT NULL,
   "Country" character varying(50) NOT NULL
-)
+);
 
 INSERT INTO "Customers" ("FirstName", "LastName", "Gender", "Address", "Phone", "Email", "City", "Country")
 VALUES ('John', 'Hibert', 'Male', '284 chaucer st', '084789657', 'john@gmail.com', 'Johannesburg', 'South Africa');
